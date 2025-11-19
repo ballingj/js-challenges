@@ -5,4 +5,5 @@ test('Find Missing Letter', () => {
   expect(findMissingLetter(['X', 'Z'])).toBe('Y');
   expect(findMissingLetter(['m', 'n', 'o', 'q', 'r'])).toBe('p');
   expect(findMissingLetter(['F', 'G', 'H', 'J'])).toBe('I');
+  expect(findMissingLetter([])).toBe('');
 });
