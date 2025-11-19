@@ -14,3 +14,12 @@ function findMissingNumber(arr) {
 }
 
 module.exports = findMissingNumber;
+
+
+/*
+// instead of reduce you can use a for loop
+let actualSum = 0;
+for (let i = 0; i < arr.length; i++) {
+  actualSum += arr[i];
+}
+*/
